@@ -1,10 +1,8 @@
 spring:
-  cloud:
-    nacos:
-      config:
-        uri: http://localhost:8888
   application:
     name: crbook-index
-  profiles:
-    active: dev
-
+  cloud:
+    config:
+      uri: http://localhost:8888
+      label: master
+      #profile: prod

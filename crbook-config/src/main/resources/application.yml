@@ -12,7 +12,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/fantast1211/crbook.git #配置文件所在仓库
+          uri: https://github.com/fantast1211/crbook/tree #配置文件所在仓库
           username: fantast1211
           password: jm456852456
           default-label: master #配置文件分支
